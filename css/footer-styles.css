@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+* {
+  box-sizing: border-box; }
+
+@media screen and (min-width: 1025px) {
+  footer {
+    font-family: "Oswald", sans-serif;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%; }
+    footer #nav2 ul {
+      display: flex;
+      list-style-type: none;
+      padding-left: 1.3%;
+      margin: 0; }
+      footer #nav2 ul li {
+        padding: 1%;
+        font-size: 2vw; }
+        footer #nav2 ul li a {
+          color: white;
+          text-decoration: none; }
+    footer #footlogo {
+      display: flex;
+      width: 0 auto;
+      justify-content: flex-end;
+      padding: 2%; }
+      footer #footlogo #footlogobox {
+        width: 30%; }
+        footer #footlogo #footlogobox img {
+          min-width: 100%;
+          max-width: 100%; }
+    footer #name {
+      display: flex;
+      justify-content: center; }
+      footer #name p {
+        font-size: 1.8vw;
+        color: white; } }
+@media screen and (max-width: 480px) {
+  footer {
+    font-family: "Oswald", sans-serif;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    padding: 1% 0 3%; }
+    footer #nav2 ul {
+      display: flex;
+      list-style-type: none;
+      padding: 1%;
+      margin: 0;
+      justify-content: center; }
+      footer #nav2 ul li {
+        padding: 0.5% 2%;
+        font-size: 3.5vw; }
+        footer #nav2 ul li a {
+          color: white;
+          text-decoration: none; }
+    footer #footlogo {
+      display: flex;
+      width: 0 auto;
+      justify-content: center;
+      padding: 2%; }
+      footer #footlogo #footlogobox {
+        width: 55%; }
+        footer #footlogo #footlogobox img {
+          min-width: 100%;
+          max-width: 100%; }
+    footer #name {
+      display: flex;
+      justify-content: center; }
+      footer #name p {
+        font-size: 3.5vw;
+        color: white; } }
+/* for tablets */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  footer {
+    font-family: "Oswald", sans-serif;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    padding: 1% 0 3%; }
+    footer #nav2 ul {
+      display: flex;
+      list-style-type: none;
+      padding: 1%;
+      margin: 0; }
+      footer #nav2 ul li {
+        padding: 0.5% 2%;
+        font-size: 3.5vw; }
+        footer #nav2 ul li a {
+          color: white;
+          text-decoration: none; }
+    footer #footlogo {
+      display: flex;
+      width: 0 auto;
+      justify-content: center;
+      padding: 2%; }
+      footer #footlogo #footlogobox {
+        width: 55%; }
+        footer #footlogo #footlogobox img {
+          min-width: 100%;
+          max-width: 100%; }
+    footer #name {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 3%; }
+      footer #name p {
+        font-size: 3.5vw;
+        color: white; } }
+
+/*# sourceMappingURL=footer-styles.css.map */

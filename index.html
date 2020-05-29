@@ -1,10 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Code Review 3</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/index-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/header-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/footer-styles.css">
 </head>
 <body>
+	<header id = "headerbox">
+		<div id = "mainhead">
+			<div class = "NPimg">
+				<img src="img/logo.png" alt="You can't see this logo">
+			</div>
+			<div class = "FSWDCbox">
+				<a href="https://www.codefactory.wien">
+					<img src="img/banner.png" alt="You can't see this banner">
+				</a>
+			</div>
+		</div>
+		<nav id = "nav1">
+				<ul>
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="html/team.html"> Team </a></li>
+				</ul>
+		</nav>
+	</header>
+	<main id = "mainbox">
+		<div id = "insform">
+			<h1>
+				Car insurance
+			</h1>
+
+			<div id = "frontbox">
+				<h1>
+					Great coverage begins with a custom quote
+				</h1>
+				<form id = "form">
+					<ul>
+						<li>
+							<label>Your name:</label>
+							<input type="text" name="name" id="name"/>
+						</li>
+						<li>
+							<label>Age:</label>
+							<input type="text" name="age" id="age" />
+						</li>
+						<li>
+							<label>Country:</label>
+							<select name="country" id="country">
+								<option value="austria">Austria</option>
+								<option value="hungary">Hungary</option>
+								<option value="greece">Greece</option>
+							</select>
+						</li>
+						<li>
+							<label>Horse Power of your car:</label>
+							<input type="text" name="horse" id="horse"/>
+						</li>
+						
+					</ul>
+					<input type="submit" name="calculate" value = "Calculate" id = "button"/>
+				</form>
+				<div id="result">Printed calculation goes here</div>
+			</div>
+		</div>
+		<div id = "boxgrey">
+			<h2>
+				Un-complicating car coverage
+			</h2>
+			<p>
+				Understanding your coverage options shouldn't be so hard.
+			</p>
+			<p>
+				We'll guide you thorugh available coverage types,
+			</p>
+			<p>
+				starting with who and what is covered.
+			</p>
+		</div>
+		
+		<div id = "extrainfo">
+			<div class = "smallbox one">
+				<h3>What comes standard</h3>
+				<h4>The coverage you need</h4>
+				<p><span>&#10004;</span>  Bodily Injury Liability</p>
+				<p><span>&#10004;</span>  Property Damage</p>
+				<p><span>&#10004;</span>  Medical Payments</p>
+				<hr>
+				<h5>Benefits</h5>
+				<h6>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</h6>
+			</div>
+			<div class = "smallbox two">
+				<h3>Add-on protection & coverage</h3>
+				<h4>For more peace of mind</h4>
+				<p><span>&#10004;</span> Better Car Replacement</p>
+				<p><span>&#10004;</span> Towing & Labor</p>
+				<p><span>&#10004;</span> Rental Car Coverage</p>
+				<hr>
+				<h5>Earned Benefits</h5>
+				<h6>Accident Forgiveness<sup>1</sup> | New Car Replacement<sup>TM</sup></h6>
+			</div>
+		</div>
+	</main>
+
+
+
+
+	<footer>
+		<nav id = "nav2">
+				<ul>
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="html/team.html"> Team </a></li>
+				</ul>
+		</nav>
+		<div id = "footlogo">
+			<div id = "footlogobox">
+				<img src="img/logo-inv.png" alt="you can't see this logo">
+			</div>
+		</div>
+		<div id = "name">
+			<p>Irati Larreina - CodeFactory 2020</p>
+		</div>
+	</footer>
 
 	<script src="js/script.js" type="text/javascript"></script>
 </body>
