@@ -24,16 +24,16 @@ class memberInfo{
 	/* Creates Elements on the webpage */
 	createElements(){
 
-		/* Creates a div which will hold information from the employee */
+		/* Creates a div on the html which will hold information from the employee */
 		const boxdiv = document.createElement("div")
 
-		/* Creates other items */
+		/* Creates other html elements */
 		const boxname = document.createElement("h1")
 		const boxemail = document.createElement("h2")
 		const boximg = document.createElement("img")
 		const boxbutton = document.createElement("button")
 
-		/* Appends these items on the div */
+		/* Appends these elements on the div */
 		boxdiv.appendChild(boxname)
 		boxdiv.appendChild(boxemail)
 		boxdiv.appendChild(boximg)
@@ -41,7 +41,7 @@ class memberInfo{
 
 		const boxmain = document.getElementById("wrapper")
 
-		/* Sets text and image source on the items */
+		/* Sets text and image source on the elements */
 		boxname.innerText = `Employee's name: ${this.name}`
 		boxemail.innerText = `e-mail address: ${this.email}`
 		boximg.setAttribute("src", this.image)
@@ -53,19 +53,19 @@ class memberInfo{
 		/* An event occurs as soon as we click the button */
 		boxbutton.addEventListener("click", (event) => {
 
-			/* Creates more items */
+			/* Creates more html elements */
 			const boxage = document.createElement("h2")
 			const boxnation = document.createElement("h2")
 			const boxjob = document.createElement("h2")
 			const boxinfo = document.createElement("p")
 
-			/* Appends these items to the div */
+			/* Appends these elements to the div */
 			boxdiv.appendChild(boxage)
 			boxdiv.appendChild(boxnation)
 			boxdiv.appendChild(boxjob)
 			boxdiv.appendChild(boxinfo)
 
-			/* Sets text and image source on the items */
+			/* Sets text and image source on the elements */
 			boxage.innerText = `Age: ${this.age}`
 			boxnation.innerText = `Nationality: ${this.nation}` 
 			boxjob.innerText = `Job position: ${this.job}`
