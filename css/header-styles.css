@@ -47,9 +47,9 @@ body {
 @media screen and (max-width: 480px) {
   #headerbox {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    font-family: "Oswald", sans-serif; }
     #headerbox #mainhead {
-      font-family: "Oswald", sans-serif;
       background-color: #FCF3F3;
       display: flex;
       align-items: center; }
@@ -79,9 +79,9 @@ body {
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   #headerbox {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    font-family: "Oswald", sans-serif; }
     #headerbox #mainhead {
-      font-family: "Oswald", sans-serif;
       background-color: #FCF3F3;
       display: flex;
       align-items: center; }
