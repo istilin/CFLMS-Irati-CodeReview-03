@@ -13,6 +13,7 @@ body {
     height: auto;
     align-items: center; }
 
+  /* Setting background styles */
   #insform {
     width: 100%;
     font-family: "Oswald", sans-serif;
@@ -24,7 +25,8 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 0;
-    margin-bottom: -10%; }
+    margin-bottom: -10%;
+    /* Transparent box in front */ }
     #insform h1 {
       font-size: 4.8vw;
       width: 100%;
@@ -96,6 +98,7 @@ body {
         overflow: auto;
         height: 13vw; }
 
+  /* Grey box underneath */
   #boxgrey {
     overflow: hidden;
     font-family: "Oswald", sans-serif;
@@ -113,6 +116,7 @@ body {
       font-size: 3vw;
       margin: 0; }
 
+  /* Extra information boxes on the bottom of the page */
   #extrainfo {
     display: flex;
     justify-content: space-between;

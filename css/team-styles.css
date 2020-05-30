@@ -20,7 +20,8 @@
     width: 80%;
     height: auto;
     justify-content: space-between;
-    align-self: center; }
+    align-self: center;
+    /* This styles will act as soon as they are created on the JS file */ }
     #mainbox #wrapper div {
       width: 43%;
       display: flex;
