@@ -15,23 +15,22 @@ function calculateInsurance(country, horse, age){
 
 
 document.getElementById("button").addEventListener("click", (event) => {
-	
-
-})
-const generateDOM = (name, age, country, horse) => {
 	event.preventDefault();
 	const nameE = document.getElementById("name").value;
 	const ageE = parseInt(document.getElementById("age").value);
 	const countryE = document.getElementById("country").value;
 	const horseE = parseInt(document.getElementById("horse").value);
 
+	generateDOM(nameE, ageE, countryE, horseE)
+
+})
+const generateDOM = (name, age, country, horse) => {
+
 	insurance_value = calculateInsurance(country, horse, age)
 	console.log(insurance_value)
 	const resultE = document.getElementById("result")
-	resultE.innerHTML = `Hello there my name is`
+	resultE.innerHTML = `${name}, your insurance costs ${insurance_value} €`
 	console.log(resultE)
-
-generateDOM()
 
 	
 

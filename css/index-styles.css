@@ -90,9 +90,11 @@ body {
           margin: 2.5%;
           padding: 0; }
       #insform #frontbox #result {
-        padding: 2% 0 5%;
+        padding: 1% 0 5%;
         color: #4A9236;
-        font-size: 4vw; }
+        font-size: 4vw;
+        overflow: auto;
+        height: 13vw; }
 
   #boxgrey {
     overflow: hidden;
